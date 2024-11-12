@@ -1,5 +1,5 @@
 // asyncFunctions.test.js
-const { fetchDataWithCallback } = require('../../asyncFuntion.js');
+const { fetchDataWithCallback } = require('../asyncFuntion');
 
 test("fetchDataWithCallback returns data", (done) => {
   function callback(data) {
